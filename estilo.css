@@ -1,0 +1,143 @@
+/*limpar formatação padrão*/
+*{
+    margin: 0;
+    padding: 0;
+}
+
+body {
+    font-size: 1em;
+    font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+    background: #fce5cc;
+}
+
+a {
+    text-decoration: none;
+}
+
+/*layout*/
+
+#area-cabecalho {
+    background-color: #f7b600;
+    padding: 15px;
+    text-align: center;
+    position: fixed;
+    width: 100%;
+}
+
+#area-logo, area-menu {
+    padding: 10px;
+}
+
+#area-principal {
+    width: 920px;
+    margin: 0 auto;
+    padding: 120px;
+}
+
+#area-postagens {
+    width: 660px;
+    background: white;
+    float: left;
+}
+
+.postagem {
+    padding: 20px;
+    margin-bottom: 20px;
+    background: white;
+    text-align: justify;
+}
+
+#area-lateral {
+    width: 240px;
+    background: white;
+    float: right;
+}
+
+#rodape {
+    clear: both;
+    text-align: center;
+    padding: 15px;
+    background: #CCC;
+}
+
+/*formatação do menu*/
+
+#area-menu a {
+    text-decoration: none;
+}
+
+#area-menu a:link, #area-menu a:visited {
+    color: white;
+    padding: 8px 12px;
+}
+
+#area-menu a:hover {
+    color: #f7b600;
+    background: white;
+}
+
+/*formtação geral*/
+
+h1 {
+    color: #4e4e4e;
+    font-size: 2,5em;
+}
+
+.branco {
+    color: white;
+}
+
+/*formatação postagens*/
+
+#area-postagens a {
+    color: #f7b600;
+}
+
+#area-postagens a:hover {
+    color: #f7b600;
+    text-decoration: underline;
+}
+
+
+h2 {
+    color: #f7b600;
+}
+
+.data-postagem {
+    font-size: 0.8em;
+    border-bottom: 1px solid #fce5cc;
+    padding-bottom: 10px;
+    margin-bottom: 10px;
+    display: block;
+}
+
+/*área lateral*/
+
+.conteudo-lateral {
+    background-color: white;
+    padding: 8px;
+    margin: 20px;
+}
+
+.postagem-lateral {
+    font-size: 0,8em;
+    padding: 5px;
+}
+
+.conteudo-lateral h3 {
+    background-color: #CCC;
+    color: #565656;
+    padding: 5px;
+}
+
+.conteudo-lateral a {
+    color: #f7b600;
+    display: block;
+    padding-left: 5px;
+    padding-bottom: 8px;
+}
+
+.conteudo-lateral a:hover {
+    color: #f7b600;
+    text-decoration: underline;
+}
